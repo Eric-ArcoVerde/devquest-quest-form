@@ -70,11 +70,15 @@ main {
 
 .formulario form .botao {
     background-color: #3CCC87;
+    color: #fff;
     display: inline-block;
     border-radius: 5px;
-    padding: 12px 0;
+    height: 40px;
     width: 100%;
+    padding: 12px 0;
     text-align: center;
+    font-size: 15px;
+    font-weight: 700;
 }
 
 .obrigatorio {
