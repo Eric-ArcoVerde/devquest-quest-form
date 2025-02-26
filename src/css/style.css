@@ -48,22 +48,25 @@ main {
     justify-content: space-between;
 }
 
-.formulario form input {
+.formulario form input, textarea {
     border: 1px solid;
     border-radius: 5px;
     margin-bottom: 15px;
     font-size: 15px;
     font-weight: 400;
     width: 100%;
+}
+
+.formulario form input{
     height: 35px;
 }
 
-.formulario form input:last-child {
+.formulario form .entrada input:last-child {
     margin-bottom: 0px;
     height: 100px;
 }
 
-.formulario form p {
+.formulario form .texto {
     margin-bottom: 20px;
     transform: translateX(-5px);
 }
@@ -81,17 +84,22 @@ main {
     font-weight: 700;
 }
 
-.obrigatorio {
+.formulario .entrada p {
     display: none;
     color: #F52E2E;
     font-size: 8px;
     font-weight: 400;
 }
+/* ----------------CAMPO VAZIO */
 
-.input-obrigatorio{
-    border: 1px solid #F52E2E;
+.formulario .entrada.ativo p {
+    display: block;
 }
 
-.input-aceito{
+.formulario .input-obrigatorio .input-text{
+    border-color: #F52E2E;
+}
+/* -----------CAMPO PREENCHIDO */
+.formulario .input-aceito .input-text{
     border: 1px solid #00C22B;
 }

@@ -28,20 +28,32 @@
             </p>
         </section>
         <section class="formulario">
-            <form action="index.html" method="get">
-                <input type="text" name="nome" placeholder="Nome Completo *">
-                <p class="obrigatorio">campo obrigatório</p>
-                <input type="text" name="email" placeholder="Email *">
-                <p class="obrigatorio">campo obrigatório</p>
-                <input type="text" name="telefone" placeholder="Telefone *">
-                <p class="obrigatorio">campo obrigatório</p>
-                <input type="text" name="mensagem" placeholder="Mensagem *">
-                <p class="obrigatorio">campo obrigatório</p>
+            <form>
+                <ul>
+                    <li class="entrada">
+                        <input class="input-text" type="text" placeholder="Nome Completo *">
+                        <p>campo obrigatório</p>
+                    </li>
+                    <li  class="entrada">
+                        <input class="input-text" type="text" placeholder="Email *">
+                        <p>campo obrigatório</p>
+                    </li>
+                    <li  class="entrada">
+                        <input class="input-text" type="text" placeholder="Telefone *">
+                        <p>campo obrigatório</p>
+                    </li>
+                    <li  class="entrada">
+                        <textarea class="input-text" name="" rows="5" id="" placeholder="Mensagem *"></textarea>
+                        <!-- <input type="text" name="mensagem" placeholder="Mensagem *"> -->
+                        <p>campo obrigatório</p>
+                    </li>
+                </ul>
                 <p class="texto">*campos obrigatórios</p>
                 <input type="submit" value="Enviar" class="botao">
             </form>
         </section>
     </main>
+    <script src="src/js/form.js"></script>
 </body>
 
 </html>
