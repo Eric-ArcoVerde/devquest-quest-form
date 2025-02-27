@@ -3,10 +3,10 @@ body {
     background-size: contain;
     display: flex;
     justify-content: center;
+    min-height: 100vh;
 }
 
 main {
-    height: 100vh;
     display: flex;
     align-items: center;
     max-width: 800px;
@@ -125,9 +125,7 @@ main {
     border: 1px solid #00C22B;
 }
 
-/* ---------css,
-responsividade,
-anotações para o resumo,
+/* --------anotações para o resumo,
 Checagem final
 
 depois do textarea tem um espaço de 4px que não consigo tirar

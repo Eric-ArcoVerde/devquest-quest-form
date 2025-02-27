@@ -1,0 +1,108 @@
+@media (min-width: 2560px) {
+    main {
+        max-width: 2000px;
+    }
+
+    .textos h2 {
+        font-size: 60px;
+        margin-bottom: 30px;
+    }
+
+    .textos p {
+        font-size: 50px;
+    }
+
+    .textos {
+        margin: 0px 50px 0px 50px;
+    }
+
+    .formulario {
+        margin: 20px 50px;
+        min-width: 1000px;
+        min-height: 900px;
+        padding: 40px;
+        border-radius: 10px;
+    }
+
+    .formulario form .input-text,
+    .formulario form textarea {
+        font-size: 50px;
+        margin-bottom: 0px;
+        padding: 15px 15px;
+        border-radius: 20px;
+    }
+
+    .formulario form .entrada {
+        margin-bottom: 45px;
+    }
+
+    .formulario form input {
+        height: 80px;
+    }
+
+    .formulario form textarea {
+        height: 200px;
+    }
+
+    .formulario form .botao {
+        height: 110px;
+        font-size: 50px;
+        border-radius: 20px;
+    }
+
+    .formulario .entrada p {
+        font-size: 20px;
+    }
+
+    .formulario form .texto-campo {
+        margin-bottom: 25px;
+        transform: translateX(-5px);
+        font-size: 40px;
+    }
+
+    /* ----------------CAMPO VAZIO */
+
+    .formulario .entrada.vazio p {
+        margin-bottom: 21px;
+    }
+}
+
+@media (max-width: 425px){
+    main {
+        flex-direction: column;
+        align-items: center;
+        max-width: 300px;
+    }
+
+    .textos {
+        margin: 50px 30px;
+    }
+    
+    .formulario {
+        margin: 0px 30px 50px 30px;
+        min-width: 300px;
+    }
+}
+
+@media (max-width: 375px){
+    .textos {
+        margin: 40px 30px;
+    }
+    
+    .formulario {
+        margin: 0px 30px 40px 30px;
+    }
+
+
+}
+
+@media (max-width: 320px){
+    .textos {
+        margin: 30px;
+    }
+    
+    .formulario {
+        margin: 0px 20px 30px 20px;
+        min-width: 280px;
+    }
+}
