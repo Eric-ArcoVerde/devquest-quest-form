@@ -16,7 +16,5 @@ botaoPressionado.addEventListener('submit', function (event) {
             campoEntrada[index].classList.remove("vazio")
             campoEntrada[index].classList.remove("input-obrigatorio")
         }
-        
     })
 })
-
